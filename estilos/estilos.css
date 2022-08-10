@@ -95,11 +95,11 @@ label {
 
 .menu-img img {
 
-		width: 20%;
 		display: inline-block;
 		margin: 10px;
 		border-radius: 20px;
 		border: double;
+		max-width: 200px;
 
 }
 
