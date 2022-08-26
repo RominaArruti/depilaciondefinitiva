@@ -24,15 +24,14 @@ body {
 
 
     	@include m-p( 0px, 0px);
-	    /*padding: 0;
-		margin: 0px;*/
 		list-style: none;
 		text-align: center;
 	}
 
- 	li {
+    li {
 
  		font-weight: bold;
+ 		color: $colortex;
 	}
 	
 	a {
@@ -54,9 +53,6 @@ body {
 		color:$colortex;
 		text-align: center;
 		font-size: 30px;
-
-		/*margin: auto;
-		padding: 0;*/
 	}
 
 	h2 {
@@ -65,37 +61,36 @@ body {
 		color:$colortex;
 		text-align: center;
 		font-size: 25px;
-		
-		/*margin: auto;
-		padding: 0;*/
 	}
 
-	h3 {
+	h3,
+	h4 {
 
 		@include m-p(auto, 10px);
 		color:$colortex;
 		text-align: center;
 		font-size: 25px;
-		/*margin: auto;
-		padding: 10px;*/
 	}
 
 	p,
 	span {
 		color:$colortex;
     	text-align: center;
-		font-size: 25px;
+		font-size: 20px;
 		@include m-p(10px, 10px)
-		/*margin: 10px;
-		padding: 10px;*/
 	}
 
 	label {
 		font-weight: bold;
+		color: $colortex;
 		text-align: center;
 		margin-bottom: 20px;
 	}
 
+.preguntas {
+
+	font-weight: normal;
+}
 
 
 
@@ -220,6 +215,13 @@ body {
 			display: flex;
 			justify-content: center;
 		}
+}
+
+.icono-mail{
+
+	font-size: 40px;
+	margin: 20px
+
 }
 
 
