@@ -27,23 +27,27 @@ a {
 
 input,
 button {
-  margin: 5px;
+  margin: 15px;
 }
 
 h1 {
+  font-weight: bold;
   margin: auto;
   padding: 0px;
   color: black;
   text-align: center;
   font-size: 30px;
+  margin: 10px;
 }
 
 h2 {
+  font-weight: bold;
   margin: auto;
   padding: 0px;
   color: black;
   text-align: center;
   font-size: 25px;
+  margin: 10px;
 }
 
 h3,
@@ -80,7 +84,7 @@ label {
   margin: 10px;
   border-radius: 20px;
   border: double;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .baner {
@@ -124,7 +128,7 @@ label {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 5px;
+  margin: 20px;
   padding: 5px;
 }
 
@@ -155,19 +159,33 @@ label {
   padding: 5px;
 }
 
-.contacto {
+.alineacion-input {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
-.contacto-input {
+.alineacion-input .contacto .contacto-input {
   display: flex;
   justify-content: center;
+}
+.alineacion-input .contacto .car3 {
+  display: flex;
+  flex-direction: column;
+}
+.alineacion-input .contacto .car3 label {
+  text-align: start;
 }
 
 .icono-mail {
   font-size: 40px;
   margin: 20px;
+}
+
+.respuestas {
+  margin-top: 40px;
+  margin-botton: 40px;
+}
+.respuestas .h4 {
+  font-weight: bold;
 }
 
 @media (min-width: 767px) {

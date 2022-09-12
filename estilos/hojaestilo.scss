@@ -43,24 +43,28 @@ body {
 	input,
 	button {
 
-	margin: 5px;
+	margin: 15px;
 
 	}
 
 	h1 {
 
+		font-weight: bold;
 		@include m-p(auto, 0px);
 		color:$colortex;
 		text-align: center;
 		font-size: 30px;
+		margin: 10px;
 	}
 
 	h2 {
 
+		font-weight: bold;
 		@include m-p(auto, 0px);
 		color:$colortex;
 		text-align: center;
 		font-size: 25px;
+		margin: 10px;
 	}
 
 	h3,
@@ -101,7 +105,7 @@ body {
 		margin: 10px;
 		border-radius: 20px;
 		border: double;
-		max-width: 200px;
+		max-width: 150px;
 	}
 }
 
@@ -162,7 +166,7 @@ body {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin: 5px;
+		margin: 20px;
 		padding: 5px;
 	}
 }
@@ -204,24 +208,51 @@ body {
 	}
 }
 
-.contacto {
+.alineacion-input{
 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 
-		&-input {
+     display: flex;
+     justify-content: center;
 
-			display: flex;
-			justify-content: center;
-		}
+     .contacto{
+
+     	.contacto-input{
+
+     		display: flex;
+     		justify-content: center;
+     	}
+
+     	.car3{
+
+     		display:flex;
+     		flex-direction: column;
+
+     		label{
+
+     			text-align: start;
+     		}
+     	}
+     }
 }
+
 
 .icono-mail{
 
 	font-size: 40px;
 	margin: 20px
 
+}
+
+.respuestas{
+
+	margin-top:40px;
+	margin-botton: 40px;
+
+
+	 	.h4{
+
+		font-weight: bold;
+	}
 }
 
 
